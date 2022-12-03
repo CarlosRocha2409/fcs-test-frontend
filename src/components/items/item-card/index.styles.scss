@@ -1,0 +1,21 @@
+.item-card {
+    @apply rounded-3xl bg-dark cursor-pointer hover:scale-110 duration-500;
+    img {
+        @apply w-full rounded-t-3xl
+    }
+    .ic-content {
+        @apply p-4;
+        h3 {
+            @apply text-secondary font-bold;
+        }
+        .ic-traits {
+            @apply grid grid-cols-2 gap-4 mt-4;
+            .ic-trait {
+                @apply bg-darker p-2 rounded-3xl;
+                h4 {
+                    @apply text-primary font-bold;
+                }
+            }
+        }
+    }
+}

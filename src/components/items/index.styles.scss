@@ -1,0 +1,12 @@
+.items {
+    @apply h-screen flex justify-center items-center flex-col gap-8;
+    >img {
+        width: max(500px, 350px);
+        animation: float 2s infinite ease-in-out;
+    }
+    .items-container {
+        @apply grid grid-cols-1 md:grid-cols-3
+         justify-center items-center overflow-scroll
+         gap-8 ;
+    }
+}

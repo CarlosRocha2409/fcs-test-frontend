@@ -1,0 +1,25 @@
+.item-detail {
+    @apply grid h-full grid-cols-1 md:grid-cols-2 items-center justify-center gap-4 ;
+    img{
+        @apply rounded-full w-full ;
+    }
+    .item-info{
+        h1{
+            @apply text-6xl text-left; 
+        }
+        .item-info-content{
+            
+            @apply grid grid-cols-2 md:grid-cols-3 gap-4 mt-8;
+            .item-trait{
+                @apply p-4 bg-dark rounded-2xl;
+                
+                h4{
+                    @apply font-bold
+                }
+                p{
+                    @apply text-sm
+                }
+            }
+        }
+    }
+}
